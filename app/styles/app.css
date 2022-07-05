@@ -1345,11 +1345,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .md\:pt-44 {
     padding-top: 11rem;
   }

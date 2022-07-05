@@ -10,4 +10,12 @@ module.exports = {
   // assetsBuildDirectory: "public/build",
   // serverBuildPath: "api/index.js",
   // publicPath: "/build/",
+  mdx: async (filename) => {
+    const [rehypeHighlight] = await Promise.all([
+      import("rehype-highlight").then((module) => module.default),
+    ]);
+    return {
+      rehypePlugins: [rehypeHighlight],
+    };
+  },
 };

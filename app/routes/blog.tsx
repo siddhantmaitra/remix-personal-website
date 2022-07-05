@@ -21,17 +21,21 @@ export const links: LinksFunction = () => {
 
 export default function Blog() {
 	return (
-		<div>
-			<div>
-				<Link to={"/blog"}>
+		<div className="h-screen">
+			<div className="absolute top-2 right-0">
+				<Link 
+					to={"/blog"}
+					className="font-normal text-xl px-4 ">
 						Posts
 				</Link>
-				<Link to={"/"}>
+				<Link 
+					to={"/"}
+					className="font-normal text-xl px-4">
 						Home
 				</Link>
 			</div>
-			<div>
-				<div>
+			<div className="flex justify-center">
+				<div className="prose prose-stone prose-lg py-20 px-4">
 					<Outlet />
 				</div>
 			</div>

@@ -14,7 +14,7 @@ export default function Index() {
 			<div>
 				<div className=" font-light font-4xl leading-normal md:leading-relaxed">
 					<h1 className="font-bold text-6xl pb-4">Hello,</h1>
-					<h2 className="font-medium">My name is Siddhant Maitra.</h2>
+					<h2 className="font-medium">My name is Siddhant.</h2>
 					<p>I am a final year engineering student with a focus in CS.</p>
 					<p>I sometimes write stuff on my blog. </p>
 					<p>You can find me on: 

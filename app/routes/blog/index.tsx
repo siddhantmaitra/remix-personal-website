@@ -2,6 +2,8 @@ import type { LoaderFunction } from "@remix-run/node";
 import { Link, useLoaderData } from "@remix-run/react";
 // Import of blog posts 
 import * as firstPost from "post-01.mdx";
+import * as secondPost from "thinkpadServer.mdx";
+
 
 
 function postFromModule(module: any) {
@@ -14,8 +16,8 @@ function postFromModule(module: any) {
 export const loader: LoaderFunction = () => {
 	return [
 	
-		postFromModule(firstPost),
-		
+		postFromModule(secondPost),
+		postFromModule(firstPost)
 	];
 };
 

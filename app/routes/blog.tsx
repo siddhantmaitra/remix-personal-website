@@ -1,6 +1,6 @@
 import type { LinksFunction, MetaFunction } from "@remix-run/node";
 import { Outlet } from "@remix-run/react";
-import styles from "highlight.js/styles/atom-one-dark.css";
+import styles from "highlight.js/styles/a11y-dark.css";
 import { Link } from "@remix-run/react";
 
 export const meta: MetaFunction = () => {
